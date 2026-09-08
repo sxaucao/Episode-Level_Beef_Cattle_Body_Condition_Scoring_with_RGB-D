@@ -1,24 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""按《中文修改(2).docx》2.2–2.4 节修改的 Episode 级 RGB-D CO-MIL。
-
-默认直接运行最终模型的三折训练；输入仍为原来的两个 03 阶段 QC CSV。
-示例（在数据根目录运行）：
-  python "04_final_quality_gated_angle_aware_lowhigh_comil(1).py" --check-data
-  python "04_final_quality_gated_angle_aware_lowhigh_comil(1).py"
-  python "04_final_quality_gated_angle_aware_lowhigh_comil(1).py" --variants all
-  python "04_final_quality_gated_angle_aware_lowhigh_comil(1).py" --self-test
-
-依赖：Python >= 3.10；torch >= 2.3；numpy；pandas；Pillow；scikit-learn；matplotlib。
-不再依赖 torchvision，不下载预训练权重。--print-config / --check-data 不需要 torch。
-
-边界：本文件消费上游几何 QC 结果，不冒充已经实现或验证了 03 阶段的几何筛选。
-bag_good_angle_median 必须是全部 Good-angle frames 的有效横截面角度的合并中位数，
-不能用各帧中位数的中位数代替。若提供 --frame-angles-column，则从该 JSON 数组列重算。
-文章未给出的细节在 IMPLEMENTATION_CHOICES 中单列；所有训练结果均由实际运行计算。
-旧 ResNet18/CORAL 检查点与本模型不兼容，需要重新训练。
-"""
-
 from __future__ import annotations
 
 import argparse
