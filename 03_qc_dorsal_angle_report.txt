@@ -1,0 +1,84 @@
+Quality-controlled dorsal angle analysis
+====================================================================================================
+
+Total frames: 3815
+Good angle frames: 1865
+Good frame ratio: 0.4889
+Valid bags all-angle: 150
+Valid bags good-angle: 143
+
+All valid bag angle summary by BCS
+         count        mean       std  ...         50%         75%         max
+bcs_raw                               ...                                    
+2          6.0  170.618446  2.246714  ...  171.057312  171.863075  172.901840
+3         19.0  167.942645  4.293038  ...  168.593384  171.028900  175.814468
+4         50.0  169.467340  3.172874  ...  170.244225  171.473511  173.930267
+5         51.0  169.895052  2.476017  ...  170.349670  171.624466  173.990906
+6         24.0  172.138978  1.520786  ...  172.646507  173.169983  173.875610
+
+[5 rows x 8 columns]
+
+Good-frame bag angle summary by BCS
+         count        mean       std  ...         50%         75%         max
+bcs_raw                               ...                                    
+2          6.0  169.980082  2.950465  ...  170.835770  171.230667  172.587387
+3         17.0  165.239993  4.035945  ...  165.825562  168.214111  171.406433
+4         47.0  168.556613  3.467589  ...  169.380676  170.715454  173.930267
+5         50.0  169.684087  2.449471  ...  170.245346  171.302711  173.506378
+6         23.0  171.935508  1.717624  ...  172.574768  172.954559  174.254547
+
+[5 rows x 8 columns]
+
+Good-frame frame angle summary by BCS
+         count        mean       std  ...         50%         75%         max
+bcs_raw                               ...                                    
+2        151.0  170.777138  3.150155  ...  171.753906  172.850998  174.438736
+3        110.0  166.254276  5.137119  ...  167.248688  170.504852  175.457230
+4        427.0  168.796186  4.260228  ...  169.792618  171.510590  175.498550
+5        429.0  170.062695  3.256683  ...  170.684769  172.157822  174.878128
+6        748.0  171.841882  2.197828  ...  172.355789  173.344467  176.186325
+
+[5 rows x 8 columns]
+
+Quality counts by BCS
+   bcs_raw  is_good_angle_frame  count
+0        2                    0    607
+1        2                    1    151
+2        3                    0    222
+3        3                    1    110
+4        4                    0    456
+5        4                    1    427
+6        5                    0    253
+7        5                    1    429
+8        6                    0    412
+9        6                    1    748
+
+Phase counts by BCS
+    bcs_raw          anatomical_phase  count
+0         2  entry_or_trunk_with_rump    594
+1         2           head_neck_trunk     81
+2         2            trunk_dominant     23
+3         2  trunk_head_neck_reversed     60
+4         3  entry_or_trunk_with_rump     43
+5         3           head_neck_trunk    215
+6         3            trunk_dominant     20
+7         3  trunk_head_neck_reversed     54
+8         4  entry_or_trunk_with_rump    311
+9         4           head_neck_trunk    240
+10        4            trunk_dominant    104
+11        4  trunk_head_neck_reversed    228
+12        5  entry_or_trunk_with_rump    227
+13        5           head_neck_trunk    195
+14        5                   invalid      2
+15        5            trunk_dominant     80
+16        5  trunk_head_neck_reversed    178
+17        6  entry_or_trunk_with_rump     75
+18        6           head_neck_trunk    343
+19        6            trunk_dominant    204
+20        6  trunk_head_neck_reversed    538
+
+All valid bags Spearman BCS vs angle: rho=0.3168, p=7.80632e-05
+Good-frame bags Spearman BCS vs angle: rho=0.4395, p=3.97097e-08
+Good-frame Lean vs High Mann-Whitney U=49.0000, p=2.31964e-06
+Lean median angle=166.4163
+High median angle=172.5748
