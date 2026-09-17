@@ -1,0 +1,17 @@
+﻿Item,Value
+Total RGB-depth paired frames,3815.0
+Total bags / episodes,151.0
+Animal / split groups,52.0
+Good angle frames after QC,1865.0
+Good-frame ratio after QC,0.4888597640891219
+Bags with valid QC dorsal angle,143.0
+BCS2 bags,6.0
+BCS3 bags,20.0
+BCS4 bags,50.0
+BCS5 bags,51.0
+BCS6 bags,24.0
+BCS2 frames,758.0
+BCS3 frames,332.0
+BCS4 frames,883.0
+BCS5 frames,682.0
+BCS6 frames,1160.0

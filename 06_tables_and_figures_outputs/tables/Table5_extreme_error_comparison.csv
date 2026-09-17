@@ -1,0 +1,3 @@
+﻿Model,Lean→High,High→Lean,BCS2→BCS6,BCS6→BCS2/3
+Full-coverage RGB-depth LowHigh CO-MIL,3,2,3,2
+Final quality-gated angle-aware CO-MIL,1,0,1,0

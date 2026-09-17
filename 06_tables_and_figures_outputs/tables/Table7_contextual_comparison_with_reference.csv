@@ -1,0 +1,4 @@
+﻿Study / Model,Unit,Input,Curation,Split,Coverage,Acc5,Macro-F1 5,Weighted-F1 5,Within-one Acc,Notes
+Winkler et al. LACO ViT,Image,DGE image,Manual image curation,LACO,1.0,0.64,0.38,0.62,0.78,Contextual reference only
+Ours: Full-coverage LowHigh CO-MIL,Episode / bag,RGB-depth video frames,Automatic bag aggregation,Animal-wise,1.0,0.5559,0.4613,0.555,0.9069,Full-coverage model
+Ours: Quality-gated angle-aware CO-MIL,Eligible episode / bag,RGB-depth + QC dorsal angle,Automatic quality gate,Animal-wise,0.7345098039215686,0.6166426166426167,0.5679797218032512,0.5951579738344445,0.8970658970658971,Deployment-oriented model with abstention
