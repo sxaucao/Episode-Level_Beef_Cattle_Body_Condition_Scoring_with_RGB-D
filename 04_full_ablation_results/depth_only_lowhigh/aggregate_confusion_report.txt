@@ -1,0 +1,76 @@
+Aggregate report for depth_only_lowhigh
+====================================================================================================
+
+5-class confusion matrix
+Rows=true, columns=predicted
+[[ 0  3  0  0  3]
+ [ 0 11  0  9  0]
+ [ 2 37  0  9  2]
+ [ 3 27  0 21  0]
+ [ 1  0  0  0 23]]
+
+3-class final management confusion matrix
+Rows=true, columns=predicted
+[[14  9  3]
+ [69 30  2]
+ [ 1  0 23]]
+
+Metrics
+{
+  "acc5": 0.36423841059602646,
+  "balanced_acc5": 0.38401960784313727,
+  "macro_f1_5": 0.31515436944008374,
+  "weighted_f1_5": 0.32795076257706346,
+  "acc3_final": 0.44370860927152317,
+  "macro_f1_3_final": 0.5225774225774226,
+  "weighted_f1_3_final": 0.4710904989050685,
+  "qwk5": 0.3175038418657907,
+  "qwk3_final": 0.4019308523805595,
+  "mae_bcs": 1.0198675496688743,
+  "within_one_acc": 0.6887417218543046,
+  "lean_precision_final": 0.16666666666666666,
+  "lean_recall_final": 0.5384615384615384,
+  "high_precision_final": 0.8214285714285714,
+  "high_recall_final": 0.9583333333333334,
+  "low_precision": 0.25,
+  "low_recall": 0.038461538461538464,
+  "low_specificity": 0.976,
+  "low_pr_auc": 0.17022824913112483,
+  "low_roc_auc": 0.4452307692307692,
+  "high_branch_precision": 0.84,
+  "high_branch_recall": 0.875,
+  "high_branch_specificity": 0.968503937007874,
+  "high_branch_pr_auc": 0.8945650530773445,
+  "high_branch_roc_auc": 0.9668635170603674,
+  "lean_to_high_errors": 3,
+  "high_to_lean_errors": 1,
+  "bcs2_to_bcs6_errors": 3,
+  "bcs6_to_bcs2_or_3_errors": 1,
+  "attn_entropy_mean": 2.4275812905355796,
+  "attn_entropy_std": 0.12352353521201599
+}
+
+5-class classification report
+              precision    recall  f1-score   support
+
+        BCS2       0.00      0.00      0.00         6
+        BCS3       0.14      0.55      0.22        20
+        BCS4       0.00      0.00      0.00        50
+        BCS5       0.54      0.41      0.47        51
+        BCS6       0.82      0.96      0.88        24
+
+    accuracy                           0.36       151
+   macro avg       0.30      0.38      0.32       151
+weighted avg       0.33      0.36      0.33       151
+
+
+3-class classification report
+              precision    recall  f1-score   support
+
+        Lean       0.17      0.54      0.25        26
+       Ideal       0.77      0.30      0.43       101
+        High       0.82      0.96      0.88        24
+
+    accuracy                           0.44       151
+   macro avg       0.59      0.60      0.52       151
+weighted avg       0.67      0.44      0.47       151
