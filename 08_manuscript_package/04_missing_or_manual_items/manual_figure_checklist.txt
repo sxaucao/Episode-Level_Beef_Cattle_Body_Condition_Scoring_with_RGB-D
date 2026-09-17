@@ -1,0 +1,47 @@
+Manual / visual items still recommended for the manuscript
+=========================================================
+
+Figure 1. Overall workflow diagram
+----------------------------------
+Suggested content:
+  RGB-depth video episode
+  -> animal-wise episode indexing
+  -> anatomical quality gate
+  -> good-frame selection
+  -> QC dorsal angle extraction
+  -> RGB-depth MIL feature extraction
+  -> angle-aware fusion
+  -> ordinal BCS head
+  -> Lean / Ideal / High management class
+
+Important labels:
+  Final model = Quality-gated RGB-depth LowHigh CO-MIL with QC dorsal angle.
+  Final class comes from ordinal BCS prediction.
+  Low/high branches are auxiliary binary risk-learning heads.
+
+Figure 2. Good/bad frame quality-control examples
+-------------------------------------------------
+Suggested panel:
+  Row 1: good frame, complete dorsal trunk view
+  Row 2: bad frame with head/neck/horn interference
+  Row 3: bad frame with incomplete trunk / oblique posture / rail interference
+
+Recommended columns:
+  RGB | depth/closeness map | body mask / trunk rows | dorsal profile / angle
+
+Figure 4. Model architecture diagram
+------------------------------------
+Suggested modules:
+  RGB encoder
+  Depth encoder
+  frame-level fusion
+  attention MIL pooling
+  QC dorsal angle feature encoder
+  bag-level feature fusion
+  ordinal BCS head
+  low-condition auxiliary branch
+  high-condition auxiliary branch
+
+Avoid:
+  Do NOT draw the auxiliary branches as the final three-class classifier.
+  Do NOT include auxiliary branch-only confusion matrix in the main paper.

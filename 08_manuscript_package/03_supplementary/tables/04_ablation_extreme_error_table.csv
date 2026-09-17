@@ -1,0 +1,8 @@
+﻿Variant,Coverage,Lean→High,High→Lean,BCS2→BCS6,BCS6→BCS2/3
+rgb_only_lowhigh,1.0,2,2,1,2
+depth_only_lowhigh,1.0,3,1,3,1
+rgb_depth_comil,1.0,3,1,3,1
+rgb_depth_lowhigh,1.0,3,3,3,3
+qg_rgb_depth_lowhigh_no_angle,0.7345098039215686,2,1,2,1
+qg_rgb_depth_lowhigh_with_angle,0.7345098039215686,1,0,1,0
+angle_only_mlp,0.7345098039215686,2,4,0,4

@@ -1,0 +1,7 @@
+﻿category,status,source,destination,note
+main_figure,missing_optional,06_tables_and_figures_outputs\figures\Figure1_overall_workflow.png,08_manuscript_package\01_figures_main\Figure01_overall_workflow.png,Manual workflow diagram if available; otherwise draw separately.
+main_figure,missing_optional,06_tables_and_figures_outputs\figures\Figure1_overall_workflow.pdf,08_manuscript_package\01_figures_main\Figure01_overall_workflow.pdf,Manual workflow diagram if available; otherwise draw separately.
+main_figure,missing_optional,06_tables_and_figures_outputs\figures\Figure2_good_bad_frame_examples.png,08_manuscript_package\01_figures_main\Figure02_good_bad_frame_examples.png,Good/bad frame example panel if available; otherwise assemble from QC debug images.
+main_figure,missing_optional,06_tables_and_figures_outputs\figures\Figure2_good_bad_frame_examples.pdf,08_manuscript_package\01_figures_main\Figure02_good_bad_frame_examples.pdf,Good/bad frame example panel if available; otherwise assemble from QC debug images.
+main_figure,missing_optional,06_tables_and_figures_outputs\figures\Figure4_model_architecture.png,08_manuscript_package\01_figures_main\Figure04_model_architecture.png,Model architecture diagram if available; final prediction must come from ordinal head.
+main_figure,missing_optional,06_tables_and_figures_outputs\figures\Figure4_model_architecture.pdf,08_manuscript_package\01_figures_main\Figure04_model_architecture.pdf,Model architecture diagram if available; final prediction must come from ordinal head.
