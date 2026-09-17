@@ -111,41 +111,6 @@ The checker imports all dependencies, records versions and GPU information in `e
 | 07 | `07_update_tables_with_ablation.py` | Update final model, ablation, extreme-error and contextual tables using stage 04; write `07_final_tables_figures/`. |
 | 08 | `08_collect_animals_manuscript_artifacts.py` | Collect available manuscript assets into `08_manuscript_package/` and record missing/manual items. |
 
-Downstream model analyses use **`02_make_longitudinal_protocol_splits/02A_animalwise_3fold.csv`**, not stage 01's preliminary five-fold output or the episode-wise diagnostic split.
-
-Preview all commands without running:
-
-```powershell
-.\.venv\Scripts\python.exe run_pipeline.py --dry-run
-```
-
-```bash
-.venv/bin/python run_pipeline.py --dry-run
-```
-
-Run the complete supplied sequence, including stage 05:
-
-```powershell
-.\.venv\Scripts\python.exe run_pipeline.py
-```
-
-```bash
-.venv/bin/python run_pipeline.py
-```
-
-The runner uses the same interpreter for all stages, executes them in the order shown above, and stops on a failed stage. It records commands, Python/platform information, source hashes, package versions and completed stages under `run_logs/`. It does not automatically resume or infer missing dependencies.
-
-For staged execution, use the following commands after activating the environment, or replace `python` with the explicit executable shown above:
-
-```bash
-python run_pipeline.py --stages 01 02
-python run_pipeline.py --stages 03 03B 03C
-python run_pipeline.py --stages 04 04B 05
-python run_pipeline.py --stages 06 07 08
-```
-
-Inspect stage 02's identity and fold audits before starting training. Selecting later stages assumes their input files already exist. A complete stage 04 run trains seven variants across three test folds; stage 05 adds a separate three-fold experiment. Runtime depends on hardware and data and has not been benchmarked here.
-
 ## 6. Main training configuration
 
 Stage 04 is the source for the final ablation comparisons. Its supplied defaults are retained:
