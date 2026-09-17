@@ -1,0 +1,9 @@
+﻿reason,count
+too_few_valid_profiles,1616
+short_trunk_plateau,1014
+no_valid_angle,873
+unstable_centerline_range,4
+unstable_centerline_std,3
+excessive_axis_tilt,1
+no_valid_trunk_phase,1
+empty_after_rotation,1
