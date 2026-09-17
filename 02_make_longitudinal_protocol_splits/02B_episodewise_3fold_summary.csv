@@ -1,0 +1,4 @@
+﻿protocol,n_splits,fold_id,frame_count,episode_count,animal_count,bcs2_frames,bcs3_frames,bcs4_frames,bcs5_frames,bcs6_frames,bcs2_episodes,bcs3_episodes,bcs4_episodes,bcs5_episodes,bcs6_episodes,bcs2_animals,bcs3_animals,bcs4_animals,bcs5_animals,bcs6_animals
+episodewise,3,0,1101,50,31,101,123,258,215,404,2,7,16,17,8,1,5,13,13,7
+episodewise,3,1,1607,50,37,550,82,366,253,356,2,6,17,17,8,2,6,16,15,8
+episodewise,3,2,1107,51,35,107,127,259,214,400,2,7,17,17,8,2,6,14,14,8
