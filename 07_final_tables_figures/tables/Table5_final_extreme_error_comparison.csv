@@ -1,0 +1,4 @@
+﻿Model,Coverage,Lean→High,High→Lean,BCS2→BCS6,BCS6→BCS2/3
+RGB-depth LowHigh CO-MIL,1.0,3,3,3,3
+"Quality-gated RGB-depth LowHigh, no angle",0.7345098039215686,2,1,2,1
+Final quality-gated angle-aware CO-MIL,0.7345098039215686,1,0,1,0
