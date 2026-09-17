@@ -1,0 +1,7 @@
+﻿Step,Description,Frames,Retained,Excluded,Note
+0,Paired RGB-D frames entering QC,3815,3815,0,02A index rows (= Table 1 retained 3815)
+A,Excluded: geometry/QC check failed (bad_reasons non-empty),1950,1865,1950,trunk / posture / contour / centerline failures
+B,Excluded: < 3 valid transverse-section angles (no other failure),0,1865,0,clean but angle-sparse frames
+C,Good-angle frames (after QC),1865,1865,0,is_good_angle_frame = 1
+D,Excluded: good frames in episodes with < 3 good frames or invalid median,51,1814,51,40 of 151 episodes dropped
+E,Final modelling frames (inside eligible episodes),1814,1814,0,"111/151 episodes, coverage 0.7351"
