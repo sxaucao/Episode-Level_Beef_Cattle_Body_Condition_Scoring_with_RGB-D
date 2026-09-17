@@ -1,0 +1,9 @@
+﻿reason,count,pct_of_qc_input
+too_few_valid_profiles,1616,0.4236
+short_trunk_plateau,1014,0.2658
+no_valid_angle,873,0.2288
+unstable_centerline_range,4,0.001
+unstable_centerline_std,3,0.0008
+excessive_axis_tilt,1,0.0003
+no_valid_trunk_phase,1,0.0003
+empty_after_rotation,1,0.0003
