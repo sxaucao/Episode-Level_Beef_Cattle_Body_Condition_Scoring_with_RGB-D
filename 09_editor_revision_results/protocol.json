@@ -1,0 +1,31 @@
+{
+  "split_seed": 2026,
+  "epochs": 70,
+  "img_size": 160,
+  "batch_size": 8,
+  "num_workers": 4,
+  "lr": 0.0002,
+  "weight_decay": 0.0001,
+  "depth_crop_ratio": 0.7,
+  "min_good_frames": 3,
+  "val_fraction": 0.22,
+  "device": "cuda",
+  "no_amp": false,
+  "input_paths": {
+    "frame_csv": "D:\\Users\\17473\\Desktop\\code\\02_make_longitudinal_protocol_splits\\02A_animalwise_3fold.csv",
+    "qc_frame_csv": "D:\\Users\\17473\\Desktop\\code\\03_quality_controlled_dorsal_angle\\03_qc_frame_dorsal_angle.csv",
+    "qc_bag_csv": "D:\\Users\\17473\\Desktop\\code\\03_quality_controlled_dorsal_angle\\03_qc_bag_dorsal_angle.csv"
+  },
+  "input_sha256": {
+    "frame_csv": "8a2456fe305dfdc7805ee2e2cb437f2f67f3ad61e94da059f782fa3d5a960399",
+    "qc_frame_csv": "956e423ff3c76f2d4a3f3ade182a651e3899f5bb943f3553c0afc8dc346d5f5e",
+    "qc_bag_csv": "3667140d97f1eaf207f8c70e9310985fc33cb08908bb83c33287ca2ed44e4664"
+  },
+  "code_sha256": {
+    "revision_core.py": "863c00895556371e071aee1aee605a58935621885a029c5291bf9810506b060b",
+    "09_component_and_episode_training.py": "fbcd6f85c1fe9f80823b11ded69c16c9091e82270c5ced03d208a721b3f2d3c9",
+    "04_train_full_ablation.py": "105b42bb1543fc2cf9166144836648c22ce3714c726746381282fbb696565a9e"
+  },
+  "metric_policy": "fixed five and three label sets; undefined QWK contributes zero only to checkpoint score",
+  "frame_order": "natural sort of frame_key, not independently verified timestamps"
+}
