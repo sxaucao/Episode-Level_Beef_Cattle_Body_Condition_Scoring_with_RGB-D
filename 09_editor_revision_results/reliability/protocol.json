@@ -1,0 +1,23 @@
+{
+  "repeats": 50,
+  "frame_counts": [
+    1,
+    3,
+    6,
+    12
+  ],
+  "resampling_seed": 1709,
+  "profile_sha256": "447c4ca6e7ba2c81a8d3478354220e8561e1e0cfeecd44a1792615243ba676af",
+  "stage10_sha256": "a019ff6c8cc13b8594cf0a8069603ff039c18ff0c3e35469b1e51fc505144225",
+  "variants": [
+    "VAQ",
+    "V",
+    "V_single",
+    "V_mean"
+  ],
+  "allow_partial": false,
+  "geometry_for_resampling": "fixed from complete episode",
+  "geometry_for_halves": "recomputed within each disjoint half; original frame QC labels retained",
+  "inference": "float32 eval-mode cached frame embeddings",
+  "order": "natural frame_key; chronology must be checked by author"
+}
