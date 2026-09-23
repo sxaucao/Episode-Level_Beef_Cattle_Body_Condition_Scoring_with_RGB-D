@@ -1,0 +1,6 @@
+{
+  "predictions.csv": "95f12b429bb5b97a29d582a168f365dc197ed1190e01115b82d9116afaab8fe1",
+  "metrics.csv": "632c75dd0f0f4166c211cb9674016557d450e93ea28b7fc265532a39d21ce89c",
+  "history.csv": "1bf237f86b37b7ae4cfd3d8469a683b7d5abb6becbb0de2109d2b4eb8c137f6a",
+  "best.pt": "c96fc440526c96fb1db451ca256f1785f064cc673e79def44c6dea32498e51e1"
+}

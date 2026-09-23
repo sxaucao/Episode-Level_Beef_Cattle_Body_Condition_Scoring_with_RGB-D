@@ -1,0 +1,2 @@
+n,acc5,macro_f1_5,qwk5,mae_bcs,within_one_acc,macro_f1_3,extreme_lean_high,variant,seed,fold_id,best_epoch,raw_test_episodes,eligible_test_episodes,coverage
+42,0.5714285714285714,0.6640116916331751,0.7789473684210526,0.47619047619047616,0.9523809523809523,0.7741997984964737,0,V_single,2026,0,38,51,42,0.8235294117647058
